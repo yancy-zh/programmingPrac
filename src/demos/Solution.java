@@ -1,4 +1,4 @@
-package com.example.programmingprac;
+package demos;
 /*
 example
         int[] arr = {2, 1};
