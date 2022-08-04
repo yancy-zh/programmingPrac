@@ -20,7 +20,7 @@ public class Pangrams
 	}
 	
 	public static String isPangram(List<String> pangram)
-	{
+	{// didn't pass all test cases
 		StringBuilder outStr = new StringBuilder();
 		for (String string : pangram)
 		{
@@ -41,7 +41,7 @@ public class Pangrams
 
 		for (String str : pangram) {
 			int cnt = 0;
-			boolean found = false;
+			boolean isPangram = false;
 			Set<Integer> alphabet = new HashSet<Integer>(26);
 
 			for (char c : str.toLowerCase().toCharArray()) {
@@ -50,14 +50,14 @@ public class Pangrams
 					if (alphabet.add(n)) {
 						cnt += 1;
 						if (cnt == 26) {
-							found = true;
+							isPangram = true;
 							break;
 						}
 					}
 				}
 			}
 
-			if (found) {
+			if (isPangram) {
 				result.append("1");
 			} else {
 				result.append("0");
