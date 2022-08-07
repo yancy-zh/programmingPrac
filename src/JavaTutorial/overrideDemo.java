@@ -1,20 +1,20 @@
 package JavaTutorial;
 
-class A{
+class AA{
 	public void show()
 	{
 		System.out.println("in A");
 	}
 }
 
-class B extends A{
+class BB extends AA{
 	public void show()
 	{
 		System.out.println("in B");
 	}
 }
 
-class C extends A{
+class C extends AA{
 	public void show()
 	{
 		System.out.println("in C");
@@ -25,7 +25,7 @@ public class overrideDemo
 	
 	public static void main(String[] args)
 	{
-		A obj = new B();
+		AA obj = new BB();
 		obj.show();
 		obj = new C();
 		obj.show();
