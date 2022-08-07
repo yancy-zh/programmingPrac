@@ -1,4 +1,4 @@
-package javaTutorial;
+package JavaTutorial;
 
 class Counter
 {

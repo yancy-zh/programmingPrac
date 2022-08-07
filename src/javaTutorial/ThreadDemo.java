@@ -1,4 +1,4 @@
-package javaTutorial;
+package JavaTutorial;
 
 public class ThreadDemo
 {

@@ -1,4 +1,4 @@
-package demos;
+package algorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;
