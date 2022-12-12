@@ -1,4 +1,4 @@
-package algorithms;
+package binaryTree;
 import java.util.*;
 
 public class TreePrinter {

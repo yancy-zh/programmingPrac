@@ -1,8 +1,6 @@
-package algorithms;
+package binaryTree;
 
 import java.util.Scanner;
-
-import com.sun.tools.javac.launcher.Main.Fault;
 
 public class CalcArea
 {
