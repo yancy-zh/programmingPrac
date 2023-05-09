@@ -1,4 +1,4 @@
-package algorithms;
+package binaryTree;
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import algorithms.MyTree.TreeNode;
+import binaryTree.MyTree.TreeNode;
 
 import java.lang.Math;
 import static java.util.Arrays.*;
@@ -175,7 +175,7 @@ public class MyTree {
 	}
 	
 	// inorder tranverse 
-	public List<Integer> inorderTraversal(algorithms.TreeNode root){
+	public List<Integer> inorderTraversal(binaryTree.TreeNode root){
 		/*		TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3), null));
 		MyTree myTree = new MyTree();
 		List<Integer> res = myTree.inorderTranversal(root);
@@ -185,7 +185,7 @@ public class MyTree {
 		return res;
 	}
 	
-	public void inOrder(algorithms.TreeNode root, List<Integer> res) {
+	public void inOrder(binaryTree.TreeNode root, List<Integer> res) {
 		if (root == null) {
 			return;
 		}

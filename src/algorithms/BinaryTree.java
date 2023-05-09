@@ -3,6 +3,8 @@ package algorithms;
 import java.util.ArrayList;
 import java.util.List;
 
+import binaryTree.TreeNode;
+
 public class BinaryTree {
 
 	public static void main(String[] args) {
