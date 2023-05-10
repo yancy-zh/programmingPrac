@@ -35,14 +35,6 @@ public class CountFrogs {
 	 * 'k'.
 	 */
 
-	static {
-	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	public static final char[] previous = new char['s'];
 	static {
 		char[] croakPattern = "croakc".toCharArray();
