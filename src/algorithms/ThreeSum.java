@@ -27,8 +27,8 @@ public class ThreeSum
 		{	
     		if (nums[0]+nums[1]+nums[2]==0)
 			{
-    			List<List<Integer>> res;
-    			List<Integer> array_List =new ArrayList<Integer>(List.of(nums));
+    			List<List<Integer>> res = null;
+    			List<Integer> array_List =new ArrayList<Integer>();
     			res.add(array_List);
 				return res;
 			}
@@ -39,5 +39,6 @@ public class ThreeSum
 		{
 			return new ArrayList<>();
 		}
+		return null;
     }
 }
