@@ -1,7 +1,5 @@
 package huaweiCodingPrac;
 
-import static org.hamcrest.CoreMatchers.either;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,6 +7,7 @@ import java.util.Deque;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class WorstProductPrize
 {
@@ -24,14 +23,14 @@ public class WorstProductPrize
 		 */
 		Scanner scanner = new Scanner(System.in);
 		int windowSize = Integer.parseInt(scanner.nextLine());
-		List<Integer> scores = Arrays.stream(scanner.nextLine().split(",")).map(Integer::parseInt).collect(Collectors.toList());
+		List<Integer> scores = Stream.of(scanner.nextLine().split(",")).map(Integer::parseInt).collect(Collectors.toList());
 		Deque<Integer> minDeque = new ArrayDeque<Integer>();
-		List<Integer> result = new ArrayList<>();
+		List<Integer> result =new ArrayList<Integer>();
 		for (int i = 0; i < scores.size(); i++)
 		{
 			if (i>=windowSize)
 			{
-				result.push(minDeque[0]);
+				result.add(minDeque.pop()));
 				if (scores[i-windowSize]==minDeque[0])
 				{
 					minDeque.shift();
