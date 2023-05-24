@@ -7,7 +7,7 @@ public class ArrayPartition
 	
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
+		//get the sum of all even numbers
 		int[] array = {1,2,3,4};
 		arrayPairSum(array);
 	}
