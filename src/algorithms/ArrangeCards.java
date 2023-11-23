@@ -28,7 +28,6 @@ public class ArrangeCards {
 			return (int) (-sy * x - y + sx * y + x);
 		});
 		if (numCards[0] == 0) { // min element of the sorted array is zero, then the returned value will be at
-										// the maximum 0
 			return "0";
 		}
 		StringBuilder largestNumBuilder = new StringBuilder();

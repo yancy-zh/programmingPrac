@@ -2,6 +2,7 @@ package algorithms;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+
 // ±¨ÎÄ×ª»»
 /*
  * 		String input = "A B 1 2";
@@ -37,7 +38,7 @@ public class BaoWenZhuanHuan
 	public static void printStrList(ArrayList<String> list, int size)
 	{
 		Iterator<String> iterator = list.iterator();
-		StringBuilder builder = new StringBuilder(String.valueOf(size+1));
+		StringBuilder builder = new StringBuilder(String.valueOf(size + 1));
 		while (iterator.hasNext())
 		{
 			builder.append(" ");
