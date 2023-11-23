@@ -21,6 +21,7 @@ public class AssignSeatForNewEmployee {
 	 * 0</td> </tr> <tr> <td style="width:86px;">输出</td> <td
 	 * style="width:412px;">1</td> </tr> <tr> <td style="width:86px;">说明</td> <td
 	 * style="width:412px;">第1个位置和第3个位置，友好度均为1。</td> </tr> </tbody> </table>
+	 * eg2：1 1 1 0 1 2 1 1 1 0 0 1 1 1 2 1 1 out：4
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -51,6 +52,5 @@ public class AssignSeatForNewEmployee {
 			}
 		}
 		System.out.println(maxfriendliness);
-
 	}
 }
