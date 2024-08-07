@@ -10,38 +10,18 @@ public class ConvtIPtoInt
 	public static void main(String[] args)
 	{
 		/*
-		 * ÃèÊö
-Ô­Àí£ºipµØÖ·µÄÃ¿¶Î¿ÉÒÔ¿´³ÉÊÇÒ»¸ö0-255µÄÕûÊý£¬°ÑÃ¿¶Î²ð·Ö³ÉÒ»¸ö¶þ½øÖÆÐÎÊ½×éºÏÆðÀ´£¬È»ºó°ÑÕâ¸ö¶þ½øÖÆÊý×ª±ä³É
-Ò»¸ö³¤ÕûÊý¡£
-¾ÙÀý£ºÒ»¸öipµØÖ·Îª10.0.3.193
-Ã¿¶ÎÊý×Ö             Ïà¶ÔÓ¦µÄ¶þ½øÖÆÊý
-10                   00001010
-0                    00000000
-3                    00000011
-193                  11000001
-
-×éºÏÆðÀ´¼´Îª£º00001010 00000000 00000011 11000001,×ª»»Îª10½øÖÆÊý¾ÍÊÇ£º167773121£¬¼´¸ÃIPµØÖ·×ª»»ºóµÄÊý×Ö¾ÍÊÇËüÁË¡£
-
-Êý¾Ý·¶Î§£º±£Ö¤ÊäÈëµÄÊÇºÏ·¨µÄ IP ÐòÁÐ
-
-ÊäÈëÃèÊö£º
-ÊäÈë 
-1 ÊäÈëIPµØÖ·
-2 ÊäÈë10½øÖÆÐÍµÄIPµØÖ·
-
-Êä³öÃèÊö£º
-Êä³ö
-1 Êä³ö×ª»»³É10½øÖÆµÄIPµØÖ·
-2 Êä³ö×ª»»ºóµÄIPµØÖ·
-
-Ê¾Àý1
-ÊäÈë£º
-10.0.3.193
-167969729
-¸´ÖÆ
-Êä³ö£º
-167773121
-10.3.3.193
+		 * ï¿½ï¿½ï¿½ï¿½ Ô­ï¿½ï¿½ipï¿½ï¿½Ö·ï¿½ï¿½Ã¿ï¿½Î¿ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½0-255ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Î²ï¿½Ö³ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ipï¿½ï¿½Ö·Îª10.0.3.193 Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		 * ï¿½ï¿½ï¿½Ó¦ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10 00001010 0 00000000 3 00000011 193 11000001
+		 * 
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½00001010 00000000 00000011 11000001,×ªï¿½ï¿½Îª10ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½167773121ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½Ö·×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½
+		 * 
+		 * ï¿½ï¿½ï¿½Ý·ï¿½Î§ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÇºÏ·ï¿½ï¿½ï¿½ IP ï¿½ï¿½ï¿½ï¿½
+		 * 
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 1 ï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½Ö· 2 ï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½ï¿½ï¿½Íµï¿½IPï¿½ï¿½Ö·
+		 * 
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ 1 ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½10ï¿½ï¿½ï¿½Æµï¿½IPï¿½ï¿½Ö· 2 ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½Ö·
+		 * 
+		 * Ê¾ï¿½ï¿½1 ï¿½ï¿½ï¿½ë£º 10.0.3.193 167969729 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ 167773121 10.3.3.193
 		 */
 		Scanner scanner = new Scanner(System.in);
 		while (scanner.hasNext())
@@ -52,7 +32,9 @@ public class ConvtIPtoInt
 			if (m1.find())
 			{
 				System.out.println(ipToIntString(ip));
-			}else {
+			}
+			else
+			{
 				System.out.println(intToIpString(ip));
 			}
 			
@@ -60,14 +42,14 @@ public class ConvtIPtoInt
 		scanner.close();
 	}
 	
-	public static String ipToIntString(String ip){
+	public static String ipToIntString(String ip)
+	{
 		String[] ipInt = ip.split("\\.");
 		StringBuilder binaryString = new StringBuilder("");
 		for (int i = 0; i < ipInt.length; i++)
 		{
-			String val = String.format("%8s",  Integer.toBinaryString(Integer.valueOf(ipInt[i]))).replace(' ', '0');
+			String val = String.format("%8s", Integer.toBinaryString(Integer.valueOf(ipInt[i]))).replace(' ', '0');
 			binaryString.append(val);
-			
 		}
 		return Long.valueOf(binaryString.toString(), 2).toString();
 	}
@@ -76,10 +58,11 @@ public class ConvtIPtoInt
 	{
 		String binaryStr = Long.toBinaryString(Long.valueOf(ip));
 		String[] ipArr = StringDevideBy8.stringDivideBy8(binaryStr);
-		StringBuilder sb= new StringBuilder();
-		for (String part : ipArr ) {
+		StringBuilder sb = new StringBuilder();
+		for (String part : ipArr)
+		{
 			sb.append(Integer.valueOf(part, 2)).append('.');
 		}
-		return sb.substring(0, sb.length()-1);
+		return sb.substring(0, sb.length() - 1);
 	}
 }
