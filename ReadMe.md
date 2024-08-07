@@ -2,11 +2,8 @@
 
 ## Project description
 
-<<<<<<< HEAD
 ### Introduction
 
-=======
->>>>>>> c6499762237f91354a9c24ecd01565f26018d552
 This project contains my solutions for popular coding practice websites such as Leetcode, Hackerrank, "牛客网", the problem sets of it covering most interviewed questions in top ranking software companies, such as HSBC, HUAWEI.
 The websites used as the source of coding problems are given below:
 
@@ -14,7 +11,6 @@ The websites used as the source of coding problems are given below:
 - [Leetcode us](https://leetcode.com)
 - [Hackerrank](https://www.hackerrank.com)
 - [牛客网](https://m.nowcoder.com)
-<<<<<<< HEAD
 
 ### The problem sets of this project include:
 
@@ -23,12 +19,12 @@ The websites used as the source of coding problems are given below:
 - [华为机试题库 Huawei online coding test problem set](https://www.nowcoder.com/company/home?companyId=12598&order=1)
 - [面试经典 150 题 top 150 interviewed questions](https://leetcode.cn/studyplan/top-interview-150/)
 - [2024 春招冲刺百题计划 2024 spring job search 100 challenges](https://leetcode.cn/studyplan/2024-spring-sprint-100/)
-=======
+
   The problem sets of this project include:
+
 - [尊享面试 100 题 top 100 interview questions for plus member](https://leetcode.cn/studyplan/premium-algo-100/)
 - real questions asked in HSBC
 - [华为机试题库 Huawei online coding test problem set](https://www.nowcoder.com/company/home?companyId=12598&order=1)
->>>>>>> c6499762237f91354a9c24ecd01565f26018d552
 
 ## Project structure
 
