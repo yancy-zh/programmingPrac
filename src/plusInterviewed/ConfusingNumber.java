@@ -10,7 +10,7 @@ public class ConfusingNumber
 	
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
+		// https://leetcode.cn/problems/confusing-number/description/?envType=study-plan-v2&envId=premium-algo-100
 		int[] examples = { 6, 89, 11, 916 };
 		for (int i = 0; i < examples.length; i++)
 		{
