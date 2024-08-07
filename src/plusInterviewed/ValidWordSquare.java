@@ -34,7 +34,7 @@ public class ValidWordSquare
 			n = chars.length;
 			if (n > m)
 			{ return false; }
-			mat[i] = Arrays.copyOf(chars, m);
+			mat[i] = Arrays.copyOf(chars, m);// ensure the same size each row
 		}
 		for (int i = 0; i < m; i++)
 		{
