@@ -5,6 +5,14 @@ pom.xml.releaseBackup
 pom.xml.versionsBackup
 release.properties
 
+# Ignore all .class files
+*.class
+
+# Ignore build directories
+bin/
+target/
+out/
+
 # Eclipse
 .project
 .classpath
