@@ -23,7 +23,7 @@ The websites used as the source of coding problems are given below:
   The problem sets of this project include:
 
 - [尊享面试 100 题 top 100 interview questions for plus member](https://leetcode.cn/studyplan/premium-algo-100/)
-- real questions asked in HSBC
+- [HSBC 机试]real questions asked in HSBC
 - [华为机试题库 Huawei online coding test problem set](https://www.nowcoder.com/company/home?companyId=12598&order=1)
 
 ## Project structure
@@ -41,3 +41,5 @@ For each java class, run it as a java application and the outputs for the provid
 ## Disclaimer
 
 The solutions are mostly based on my understanding of the programming tests and my experience, so they may not be the best solutions for the problems, or not the latest, conventional solutions, so using them as studying materials may not teach you the right algorithm or data structure to apply to the problem, but it is guaranteed that the solutions can pass the test review, as they are all successfully submitted.
+
+## Contributing
