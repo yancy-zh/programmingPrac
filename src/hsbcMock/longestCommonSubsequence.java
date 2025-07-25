@@ -2,6 +2,7 @@ package hsbcMock;
 
 public class longestCommonSubsequence {
 	/**
+	 * https://leetcode.cn/problems/longest-common-subsequence/description/
 	 * 基因测序是生物信息学中的一个重要问题。给定两个基因序列 s1 和 s2，要求找到它们的最长公共子序列（Longest Common
 	 * Subsequence, LCS）。最长公共子序列是指在两个序列中都出现的最长子序列，子序列中的字符不需要连续。 示例 输入: s1 =
 	 * "AGGTAB", s2 = "GXTXAYB" 输出: 4 解释: 最长公共子序列是 "GTAB"，长度为 4。 解题思路

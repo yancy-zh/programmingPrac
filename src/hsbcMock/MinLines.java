@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class MinLines {
 	// the minimum num of lines to reach tim's friends houses.
+	// thejoboverflow.com/p/p1251
 	double getSlope(int[] line1, int[] line2) {
 		if (line1[0] == line2[0]) {
 			return Double.POSITIVE_INFINITY; // 垂直线，斜率无穷大
