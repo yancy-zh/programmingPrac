@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class CoinChange {
 
-	public static void main(String[] args) {// 交叉排序
-											// https://leetcode.cn/problems/gaM7Ch/description/?envType=problem-list-v2&envId=5ih5hQff
+	public static void main(String[] args) {
+		// 交叉排序
+		// https://leetcode.cn/problems/gaM7Ch/description/?envType=problem-list-v2&envId=5ih5hQff
 		int[] coins = new int[] { 1, 2, 5 };
 		int k = 11;
 		System.out.println(coinChange(coins, k));
