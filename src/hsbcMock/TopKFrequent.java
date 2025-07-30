@@ -78,6 +78,7 @@ public class TopKFrequent {
 
 		// 反转结果，因为堆中是从小到大排序的
 		Collections.reverse(result);
-		return MyConverter.ListIntToPrimitive(result);
+		MyConverter cvt = new MyConverter();
+		return cvt.ListIntToPrimitive(result);
 	}
 }
